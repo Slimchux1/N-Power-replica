@@ -1,13 +1,298 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,400,500,900&family=Source+Sans+Pro:wght@300&display=swap");
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
 }
+html, body {
+    
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+#logo {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.Banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    padding: 80px;
+    background: rgb(242, 250, 243);
+    
+}
+#welcome-msg {
+  font-weight: 700;
+  line-height: 3.5rem;
+  color: rgb(1, 49, 37);
+  letter-spacing: .1rem;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
+.banner-first-msg, .banner-second-msg, .section {
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+} 
+#border {
+  display: flex;
+  border: 4px soliid rgb(61, 181, 74);
+  width: 23rem;
+  
+  height: 9px;
+  background-color: rgb(61, 181, 74);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.minister {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+#content2-pic {
+    width: 100%;
+    height: 250px;
+    border-radius:10px 10px 10px 10px;
+    margin-left: 3rem;
+  
+  }
+  .coll1 {
+      margin-top: 80px;
+  }
+  #minister-name {
+    font-size: 1.2rem;
+    color:rgb(1, 49, 37); 
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+  
+  }
+  #minister-title {
+    font-size: 0.9rem;
+    color: rgb(1, 49, 37);
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+  }
+  #minister-content {
+    font-size: 0.9rem;
+    color: rgb(1, 49, 37);
+    line-height: 1rem;
+    font-family: 'Lato', sans-serif;
+  }
+
+  /*------------------------------Section---------------------*/
+  .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 80px;
+    padding: 80px;
+    background: rgba(255, 255, 255, 0.212);;
+   
+}
+  .svg-logo {
+    width: 30px;
+  }
+  #plenty-people {
+    width: 100%; 
+    height: 500px;
+    float: right;
+}
+#section-head {
+    margin-bottom: 40px;
+}
+/*-------------------------------------Footer----------------------------*/
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 80px;
+}
+#footer {
+    background-color:  #262829;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 40px;
+    font-size: 0.9rem;
+    line-height: 2rem;
+}
+.foot-line {
+    border-bottom: 1px solid #eee;
+   
+}
+.foot-text {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.7rem;
+    font-family: 'Lato', sans-serif;
+  }
+.foot-head {
+    font-size: 1.5rem;
+  line-height: 3rem;
+  color: #fff;
+}
+/*-----------------------About------------*/
+.about-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #d9f2e4;
+    grid-template-rows: 250px;
+}
+.about-detail {
+    text-align: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.btn-about {
+    text-align: center;
+    justify-content: center;
+    margin-top: 90px;
+    border-radius: 30px 30px 30px 30px;
+    height: 3.4rem;
+    width: 16rem;
+    float: right;
+    margin-right: 20rem;
+    background: #f8dcb2;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 2px;
+    color: rgb(1, 49, 37);
+}
+.btn-about:hover {
+    border: 4px solid #f8dcb2;
+    color: #16d428;
+    background: #d9f2e4;
+}
+#about-para {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+#about-head {
+    text-transform: uppercase;
+}
+/*-------media-----*/
+@media screen and (max-width: 780px) {
+   .Banner {
+       grid-template-columns: none;
+       grid-gap: 20px;
+       padding: 20px;
+       flex-wrap: wrap;
+   }
+   .coll1 {
+       margin-top: 0;
+   }
+   #border {
+    display: flex;
+    width: 10rem;
+    border: 4px soliid rgb(61, 181, 74);
+    min-width: 15rem;
+    height: 5px;
+    background-color: rgb(61, 181, 74);
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   #welcome-msg {
+    font-weight: 600;
+    line-height: 2.5rem;
+    color: rgb(1, 49, 37);
+    letter-spacing: .1rem;
+    font-size: 2rem
+  }
+  .banner-first-msg {
+    display: flex;
+    font-size: 1.0rem;
+    color: rgb(1, 49, 37);
+      line-height: 1.67; 
+  }
+  #minister-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    color:rgb(1, 49, 37); 
+    font-family: 'Lato', sans-serif;
+  
+  }
+  #minister-title {
+    font-size: 0.9rem;
+    color: rgb(1, 49, 37);
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+  }
+  #minister-content {
+    font-size: 0.9rem;
+    color: rgb(1, 49, 37);
+    line-height: 1rem;
+    font-family: 'Lato', sans-serif;
+  }
+  #content2-pic{
+      margin-top: 30px;
+      width: 100%;
+      height: 150px;
+      margin-left: 1rem;
+  }
+  /*--------------------section----------------------*/
+  .section {
+    grid-template-columns: none;
+    grid-gap: 20px;
+    padding: 20px;
+   
+}
+.section-pic {
+    grid-row: 1;
+    grid-column: span 12
+ }
+ .section-content {
+   grid-row: 2;
+    grid-column: span 12;
+ }
+ #plenty-people {
+     width: 100%; 
+     max-width: 500px;
+ }
+ /*-------------------footer-----------------------*/
+ .footer {
+    display: grid;
+    grid-template-columns: none;
+    padding: 10px;
+}
+#footer {
+    padding: 20px;
+}
+.foot-head {
+    font-size: 1.2rem;
+  line-height: 2rem;
+  
+}
+.foot-line {
+    width: 300px;
+}
+#utube {
+   width: 100%;
+}
+/*--------------About-----------*/
+.about-about {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: 150px;
+}
+.about-detail {
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: -10rem;
+}
+.btn-about {
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 20px 20px 20px 20px;
+    height: 2.8rem;
+    width: 15rem;
+   margin-left: 4rem;
+}
+#about-para {
+    font-size: 1.2rem;
+}
+#about-head {
+    font-size: 1rem;
+}
+  };
