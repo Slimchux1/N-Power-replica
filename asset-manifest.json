@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/n-power-replica/static/css/main.1da35504.chunk.css",
+    "main.js": "/n-power-replica/static/js/main.ad4500c6.chunk.js",
+    "main.js.map": "/n-power-replica/static/js/main.ad4500c6.chunk.js.map",
+    "runtime-main.js": "/n-power-replica/static/js/runtime-main.dea9258f.js",
+    "runtime-main.js.map": "/n-power-replica/static/js/runtime-main.dea9258f.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/n-power-replica/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.8cc0cf9d.chunk.js": "/n-power-replica/static/js/2.8cc0cf9d.chunk.js",
+    "static/js/2.8cc0cf9d.chunk.js.map": "/n-power-replica/static/js/2.8cc0cf9d.chunk.js.map",
+    "index.html": "/n-power-replica/index.html",
+    "precache-manifest.e87b1316ec3076cd589e4f00a75b1389.js": "/n-power-replica/precache-manifest.e87b1316ec3076cd589e4f00a75b1389.js",
+    "service-worker.js": "/n-power-replica/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/n-power-replica/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.1da35504.chunk.css.map": "/n-power-replica/static/css/main.1da35504.chunk.css.map",
+    "static/js/2.8cc0cf9d.chunk.js.LICENSE.txt": "/n-power-replica/static/js/2.8cc0cf9d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dea9258f.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.8cc0cf9d.chunk.js",
+    "static/css/main.1da35504.chunk.css",
+    "static/js/main.ad4500c6.chunk.js"
+  ]
+}
